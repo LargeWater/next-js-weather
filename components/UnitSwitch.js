@@ -1,6 +1,6 @@
 import styles from "./UnitSwitch.module.css"
 
-export const UnitSwitch = ({ unitSystem, setUnitSystem }) => {
+export const UnitSwitch = ({ onClick, unitSystem}) => {
   return(
     <div className={styles.wrapper}>
       <p
